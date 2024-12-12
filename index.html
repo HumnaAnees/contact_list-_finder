@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact List Finder</h1>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search for a contact..." onkeyup="searchContacts()">
+        </div>
+        <div class="contact-list" id="contact-list">
+            <div class="contact-item">
+                <span>Name:</span> John Doe | <span>Phone:</span> +123456789
+            </div>
+            <div class="contact-item">
+                <span>Name:</span> Jane Smith | <span>Phone:</span> +987654321
+            </div>
+            <div class="contact-item">
+                <span>Name:</span> Emily Johnson | <span>Phone:</span> +112233445
+            </div>
+            <div class="contact-item">
+                <span>Name:</span> Michael Brown | <span>Phone:</span> +998877665
+            </div>
+            <!-- More contact items can be added here -->
+        </div>
+        <p class="no-results" id="no-results" style="display: none;">No results found.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
